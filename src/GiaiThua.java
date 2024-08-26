@@ -1,0 +1,10 @@
+public class GiaiThua {
+
+    public int GiaiThua(int nums) {
+        if (nums > 0) {
+            return nums * GiaiThua(nums - 1);
+        } else {
+            return 1;
+        }
+    }
+}
